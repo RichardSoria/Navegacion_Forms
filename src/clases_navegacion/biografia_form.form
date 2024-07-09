@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="clases_navegacion.biografia_form">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="4518" width="696" height="548"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+      <preferredSize width="700" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="64903" class="javax.swing.JTextPane" binding="estudianteDeLaCarreraTextPane" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Times New Roman" size="20" style="0"/>
+          <margin top="5" left="5" bottom="5" right="5"/>
+          <text value="Estudiante de la carrera de Tecnología Superior en Desarrollo de Software de la Escuela de Formación de Tecnólogos de la Escuela Politécnica Nacional. Anteriormente pertenecí a una carrera diferente, pero durante mi estancia en el primer semestre de carrera me di cuenta que mi verdadera vocación tenia que ver con la programación. Soy una persona que se le hace fácil la resolución de problemas y el trabajo en equipo.  Al estar en esta carrera permite que mis habilidades para desarrollar aplicaciones mejoren, además hace que mi imaginación no tenga limite, logrando así crear nuevas herramientas para facilitar tareas o crear entornos en los cuales la comunicación de diferentes personas sea sencilla y no tenga tantos problemas. Entender el funcionamiento de los videojuegos, además de desarrollarlos en las diferentes plataformas existentes. Mi mayor motivación es entender la emulación de videojuegos de consolas en computadora."/>
+        </properties>
+      </component>
+      <grid id="ac670" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16740353"/>
+          <minimumSize width="150" height="39"/>
+          <preferredSize width="200" height="39"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="dd991" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-16740353"/>
+              <font name="Arial Black" size="25" style="1"/>
+              <foreground color="-65536"/>
+              <text value="Biografía"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6ef9e" class="javax.swing.JButton" binding="boton_hobbies">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font name="Arial Black" size="15" style="1"/>
+          <foreground color="-394241"/>
+          <minimumSize width="100" height="34"/>
+          <opaque value="true"/>
+          <preferredSize width="100" height="34"/>
+          <text value="Hobbies Favoritos"/>
+        </properties>
+      </component>
+      <component id="2048" class="javax.swing.JButton" binding="boton_cerrar_sesion">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font name="Arial Black" size="15" style="1"/>
+          <foreground color="-394241"/>
+          <minimumSize width="100" height="34"/>
+          <preferredSize width="100" height="34"/>
+          <text value="Cerrar Sesión"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
